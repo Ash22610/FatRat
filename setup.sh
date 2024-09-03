@@ -1,7 +1,7 @@
 #!/bin/bash
 #Instalation of searchsploit (exploitdb)
 function ssplt() {
-
+ed
 # check if searchsploit exists
 which searchsploit > /dev/null 2>&1
 if [ "$?" -eq "0" ]; then
